@@ -1,75 +1,48 @@
 project:
   type: website
-  output-dir: docs
-
-# Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+  output-dir: _site
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
- 
+  title: "Olivia Provance, PhD"
+  description: "Olivia Provance, PhD"
+  image: "2022_headshot.png"
   navbar:
     background: light
-
-    left:
-#      - text: Home
-#        href: index.qmd
+    right:
       - text: About
-        menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
+        href: posts.qmd
       - text: Research
         menu:
-          - text: List of Publication
+          - text: Overview
+            href: overview.qmd
+          - text: Publications 
             href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching
-        href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group
+          - text: Presentations, abstracts, and posters
+            href: presentations.qmd    
+          - text: Funding
+            href: projects.qmd                                 
+      - text: Running
         href: people.qmd
-
-    right: 
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/June_CV.pdf  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://oliviaprovance.github.io
         target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/oliviaprovance/
+        aria-label: LinkedIn
   
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "[Olivia Provance](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: " "
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://oliviaprovance.github.io
         target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
+      - text: CV
+        href: files/June_CV.pdf  
   
   search:
     location: navbar
@@ -79,7 +52,7 @@ website:
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+  repo-url: https://github.com/oliviaprovance/website
 #  repo-actions: [edit, issue, source]
   
   open-graph: true
@@ -87,7 +60,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
+  site-url: "https://oliviaprovancephd.github.io"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
@@ -97,7 +70,12 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo # your preferred light theme
+      dark: darkly        # your preferred dark theme
+    color-mode:
+      default: light       # or dark, or auto (system preference)
+      toggle: true         # show toggle switch in navbar
     css: styles.css
     toc: true
     footnotes-hover: true

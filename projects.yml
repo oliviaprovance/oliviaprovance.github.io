@@ -1,13 +1,31 @@
 
-    - path: https://www.nsf.gov/ 
-      image: https://new.nsf.gov/themes/custom/nsf_theme/components/sdc-components/molecules/logo/logo-desktop.svg
-      title: "Exploring "
-      author: Academic Website
-      subtitle: "Funder"
-      description: "The goal of this project is to investigate ."
-      started: "2024"
-      ended: "2025"
-      funding: "$0"
-#      date: "2022-10-26"
+    - path: https://medicine.yale.edu/center-clinical-investigation/ctsa-funding/multidisciplinary-post-doctoral-training-program/
+      title: "NIH 5TL1TR001864-07"
+      author: TL1 Postdoctoral Research Fellow
+      subtitle: "Yale Center for Clinical Investigation"
+      description: "The goal of this project is to investigate the role of PDCD4, in in tumor cells and in lymphocytes, and how it modulates anti-tumor immunity mediating metastatic melanoma."
+      started: "2022"
+      ended: "2023"
+      funding: "100% salary support"
+#      date: "2022-08-1"
 #      categories: [] 
-
+    - path: https://medicine.yale.edu/center-clinical-investigation/ctsa-funding/multidisciplinary-post-doctoral-training-program/
+      title: "RENEWAL; NIH 5TL1TR001864-07"
+      author: TL1 Postdoctoral Research Fellow
+      subtitle: "Yale Center for Clinical Investigation"
+      description: "The goal of this project is to investigate the role of PDCD4, in in tumor cells and in lymphocytes, and how it modulates anti-tumor immunity mediating metastatic melanoma."
+      started: "2023"
+      ended: "2024"
+      funding: "100% salary support"
+#      date: "2023-08-1"
+#      categories: [] 
+    - path: https://www.kumc.edu/brtp.html
+      title: "Biomedical Research Training Program (BRTP)"
+      author: BRTP Pre-doc Research Scholar
+      subtitle: "University of Kansas School of Medicine"
+      description: "The goal of this project is to investigate the role of IFITM1 in triple-negative breast cancer."
+      started: "2019"
+      ended: "2020"
+      funding: "15,000"
+#      date: "2019-08-1"
+#      categories: [] 

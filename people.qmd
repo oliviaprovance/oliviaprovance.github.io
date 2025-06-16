@@ -1,42 +1,41 @@
 ---
-title: "People"
-subtitle: "Who we are"
 #image: files/group.jpeg
 page-layout: full
-listing:  #an example of listing external links
+listing:  
 #  template: item-default-external.ejs
-- id: lab-member
-  sort: "lastname asc"
+- id: featured
+  sort: "date"
   type: grid
-  fields: [image, title, subtitle]
+  fields: [image, title]
   grid-item-align: center
   grid-columns: 4
   image-height: 200px
-  categories: true
+  categories: TRUE
 #  sort-ui: true
 #  filter-ui: true
-  contents: 
-    - /people/pi.yml  
-    - /people/phd-student.yml
 
-- id: lab-alumni
-  sort: "lastname asc"
+  contents: 
+    - /people/featured.yml
+
+- id: all
+  sort: "date"
   type: table
-  fields: [image, title, subtitle, started, ended]
+  fields: [title, year, distance, time]
   grid-item-align: center  
   grid-columns: 4
   image-height: 25px
   field-display-names: 
-      title: "Name"
-      subtitle: "Role"
-      started: "Started"
-      ended: "Ended"
+      title: "Race"
+      year: "Year"
+      distance: "Distance"
+      time: "Finish Time (hh:mm:ss)"
+     
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
   contents: 
-    - /people/phd-student.yml
-    - /people/pi.yml    
+    - /people/all.yml
+    
 
 page-navigation: false
 title-block-banner: false
@@ -48,14 +47,14 @@ format:
 ---
 
 
-## Team
+## Featured Races
 
-:::{#lab-member}
+:::{#featured}
 :::
 
 
-## Alumni
+## All Races
 
-:::{#lab-alumni}
+:::{#all}
 :::
 

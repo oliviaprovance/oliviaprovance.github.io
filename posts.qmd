@@ -1,23 +1,29 @@
 ---
-title: "What’s New & Updated"
-subtitle: "Posts about papers, events, news, and more"
-description-meta: "Posts about papers, events, news, and more"
-listing: 
-  sort: "date desc"
-  type: default
-  page-size: 100
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  feed: true
-  contents: 
-      - posts
-      - posts/post-links.yml
-#      categories: [] 
-
+title: "About Me"
+description-meta: "Information, pdfs, and social metrics of papers"
 #page-layout: full
-draft-mode: unlinked
-page-navigation: false
+#back-to-top-navigation: true
 title-block-banner: false
+css: custom.css
 ---
+
+
+---
+
+## Education
+
+I received my PhD from the University of Kansas School of Medicine in the department of Cancer Biology, and my bachelor's in biology and pre-medicine from William Jewell College. As a molecular cancer biologist by training, my work integrates molecular biology, functional genomics, novel murine models, and quantitative data analysis to study tumor cell intrinsic and extrinsic mechanisms to uncover clinically relevant mediators of cancer progression and therapeutic resistance.
+
+## Hobbies
+
+Outside of the lab, I spend my time with my husband, our son, and our two dogs. We’re usually outside—running, hiking local trails, or just walking our neighborhood. I also love coffee (the ones with fruity notes) and drink arguably too much of it. I travel sometimes, mainly back to my hometown of Kansas City to visit family and friends. 
+
+## Luna and Otto
+
+I will gladly take any excuse to show off our two german shorthaired pointers. aka: King and Queen of the household. Photos taken by the talented, [Hayley Fitch](https://www.hfitchphotography.com/about/)
+
+![Luna](files/images/luna.jpg){width=260px}
+![Everyone](files/images/everyone.jpg){width=260px}
+![Otto](files/images/otto.jpg){width=260px}
+
 
