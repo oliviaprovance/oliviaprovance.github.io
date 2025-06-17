@@ -6,55 +6,34 @@ website:
   title: "Olivia Provance, PhD"
   description: "Olivia Provance, PhD"
   image: "2022_headshot.png"
+  
   navbar:
-<<<<<<< HEAD
-    background: light
-    right:
-=======
-    background: light  # You can change the background color here
+   background: light  
+  
+   right:   
+    - text: About
+      href: posts.qmd
+    - text: Research
+      menu:
+        - text: Overview
+          href: overview.qmd
+        - text: Publications  
+          href: publications.qmd
+        - text: Presentations, abstracts, and posters
+          href: presentations.qmd    
+        - text: Funding
+          href: projects.qmd                                 
+    - text: Running
+      href: people.qmd
+    - text: CV
+      href: files/June_CV.pdf  
 
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
-#      - text: Home
-#        href: index.qmd
->>>>>>> upstream/main
-      - text: About
-        href: posts.qmd
-      - text: Research
-        menu:
-<<<<<<< HEAD
-          - text: Overview
-            href: overview.qmd
-          - text: Publications 
-            href: publications.qmd
-          - text: Presentations, abstracts, and posters
-            href: presentations.qmd    
-          - text: Funding
-            href: projects.qmd                                 
-      - text: Running
-=======
-          - text: List of Publications
-            href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
->>>>>>> upstream/main
-        href: people.qmd
-      - text: CV
-        href: files/June_CV.pdf  
-      - icon: github
-        href: https://oliviaprovance.github.io
-        target: _blank
-      - icon: linkedin
-        href: https://www.linkedin.com/in/oliviaprovance/
-        aria-label: LinkedIn
+    - icon: github
+      href: https://oliviaprovance.github.io
+      target: _blank
+    - icon: linkedin
+      href: https://www.linkedin.com/in/oliviaprovance/
+      aria-label: LinkedIn
   
   page-navigation: true
   

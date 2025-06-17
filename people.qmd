@@ -13,14 +13,6 @@ listing:
   categories: TRUE
 #  sort-ui: true
 #  filter-ui: true
-<<<<<<< HEAD
-=======
-  contents: 
-    - /people/pi.yml  # Use individual files here as you may use each person at different occasions such as events, news.
-    - /people/phd-student.yml
-    - /people/masters-student.yml
-    - /people/undergraduate-student.yml
->>>>>>> upstream/main
 
   contents: 
     - /people/featured.yml
@@ -38,20 +30,12 @@ listing:
       distance: "Distance"
       time: "Finish Time (hh:mm:ss)"
      
+  contents: 
+    - /people/all.yml
 #  categories: true
 #  sort-ui: true
 #  filter-ui: true
-  contents: 
-<<<<<<< HEAD
-    - /people/all.yml
-    
-=======
-    - /people/phd-alumni.yml
-    - /people/masters-alumni.yml
-    - /people/undergraduate-alumni.yml
 
- 
->>>>>>> upstream/main
 
 page-navigation: false
 title-block-banner: false
