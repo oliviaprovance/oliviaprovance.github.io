@@ -14,7 +14,11 @@
 <title>Quarto Academic</title>
 <link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
 </image>
+<<<<<<< HEAD
 <generator>quarto-1.7.31</generator>
+=======
+<generator>quarto-1.7.22</generator>
+>>>>>>> upstream/main
 <lastBuildDate>Tue, 15 Oct 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
@@ -23,7 +27,7 @@
   <category>news</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
   <pubDate>Tue, 15 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG" medium="image"/>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Event item</title>
@@ -85,7 +89,7 @@ https://quarto.org/docs/authoring/includes.html
   <category>news</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</guid>
   <pubDate>Mon, 24 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder3.JPG" medium="image"/>
 </item>
 <item>
   <title>Can quantum-mechanical description of physical reality be considered complete?</title>

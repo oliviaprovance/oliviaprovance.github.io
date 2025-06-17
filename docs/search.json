@@ -95,7 +95,11 @@
     "href": "index.html",
     "title": "Quarto Academic, PhD",
     "section": "",
+<<<<<<< HEAD
     "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository so you can easily come back to the template\n\nFolk this tempate and rename it to yourgithubusername.github.io\n\nUpdate and edit _quarto.yml file for website setup\n\nUpdate and add contents to /posts, teaching.qmd, projects.yml, and people.qmd and /people as needed.\nRender and preview your website and publish it to your GitHub.\nPolish and fix any issues\n\nEnjoy your website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
+=======
+    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository to bookmark it for future reference.\n\nFork this repository and rename it to YourGitHubUserName.github.io.\n\nUpdate the _quarto.yml file to configure your site’s basic settings.\n\nAdd or edit content in the following files and folders:\n\n/posts/ – posts about publications, news, events\n\nteaching.qmd – teaching information\n\nprojects.yml – research or other projects\n\npeople.qmd and /people/ – team or collaborators\n\n/files/ - profiles, images, pdfs, and includes\n\nRender and preview your site locally.\n\nPublish your site using GitHub Pages (make sure configuring your GitHub repository to publish from the docs directory, not the root folder).\nRefine and polish your content and design as needed.\n\n✅ Enjoy your new website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
+>>>>>>> upstream/main
   },
   {
     "objectID": "index.html#experience",
@@ -123,20 +127,32 @@
     "href": "people.html",
     "title": "People",
     "section": "",
+<<<<<<< HEAD
     "text": "PI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
+=======
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+>>>>>>> upstream/main
   },
   {
     "objectID": "people.html#team",
     "href": "people.html#team",
     "title": "People",
     "section": "",
+<<<<<<< HEAD
     "text": "PI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
+=======
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+>>>>>>> upstream/main
   },
   {
     "objectID": "people.html#alumni",
     "href": "people.html#alumni",
     "title": "People",
     "section": "Alumni",
+<<<<<<< HEAD
     "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nStudent Name\n\n\nPhD Student\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nPI Name\n\n\nPI\n\n\n \n\n\n \n\n\n\n\n\n\nNo matching items"
+=======
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+>>>>>>> upstream/main
   }
 ]

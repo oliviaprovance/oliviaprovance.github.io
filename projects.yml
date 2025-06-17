@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
     - path: https://medicine.yale.edu/center-clinical-investigation/ctsa-funding/multidisciplinary-post-doctoral-training-program/
       title: "NIH 5TL1TR001864-07"
       author: TL1 Postdoctoral Research Fellow
@@ -28,4 +29,16 @@
       ended: "2020"
       funding: "15,000"
 #      date: "2019-08-1"
+=======
+    - path: https://www.nsf.gov/ 
+      image: https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png
+      title: "Exploring "
+      author: Academic Website
+      subtitle: "Funder"
+      description: "The goal of this project is to investigate ."
+      started: "2024"
+      ended: "2025"
+      funding: "$0"
+#      date: "2022-10-26"
+>>>>>>> upstream/main
 #      categories: [] 

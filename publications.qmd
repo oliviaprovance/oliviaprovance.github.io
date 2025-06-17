@@ -15,13 +15,27 @@ css: custom.css
 
 2.	Provance OK, Oria VO, Tran TT, Caulfield JI, Zito CR, Aguirre-Ducler A, Schalper KA, Kluger HM, Jilaveanu LB. [Vascular mimicry as a facilitator of melanoma brain metastasis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11026261/#Sec14). Cellular and Molecular Life Sciences. 2024 Apr 18;81(1):188. PMID: 38635031. 
 
+<<<<<<< HEAD
 3.	Oria VO, Zhang H, Zito CR, Rane CK, Ma XY, Provance OK, Tran TT, Adeniran A, Kluger Y, Sznol M, Bosenberg MW, Kluger HM, Jilaveanu LB. [Coupled fibromodulin and SOX2 signaling as a critical regulator of distant metastasis initiation in melanoma](https://pmc.ncbi.nlm.nih.gov/articles/PMC9226089/). Cellular and Molecular Life Sciences. 2022 Jun 23;79(7):377. PMID: 35737114. 
+=======
+- [Web of Science](https://www.webofscience.com): 100,000 (h-index = 100)   
+- [Google Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en): 179,000 (h-index = 127, i10-index = 377) 
+>>>>>>> upstream/main
 
 4.	Provance OK, Geanes ES, Lui AJ, Holloran SH, Roy A, Gunewardena S, Weir S, Lewis-Wambi J, [Disrupting interferon-alpha and NF-kappaB crosstalk suppresses IFITM1 expression attenuating triple-negative breast cancer progression](https://pubmed.ncbi.nlm.nih.gov/34022283/). Cancer Letters. 2021 Aug 28;514:12-29. Epub 2021 May 20. PMID: 34022283.
 
+<<<<<<< HEAD
 5.	Provance OK, Lewis-Wambi J, [Deciphering the role of interferon alpha signaling and microenvironment crosstalk in inflammatory breast cancer](https://pubmed.ncbi.nlm.nih.gov/31060575/). Breast Cancer Research. 2019 May 6;21(1):59. PMID: 31060575
 
 6.	Provance OK, Won HS, Escher TE, Lewis-Wambi J. IFITM1 mediated induction of XBP1 regulates atorvastatin response in triple negative breast cancer cells. In preparation.
+=======
+Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>     
+
+
+<center><hr style="width:50%"></center>
+
+Einstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. *American Journal of Physics*, 33(5), 367. [[pdf](https://icg.isy.liu.se/en/phd-courses/quantum_foundations/references/Einstein1905b.pdf)] <span class="__dimensions_badge_embed__" data-doi="10.1038/s41560-023-01304-w" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1038/s41560-023-01304-w" data-hide-no-mentions="true" class="altmetric-embed"></div>
+>>>>>>> upstream/main
 
 
 

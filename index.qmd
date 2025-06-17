@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 title: "Olivia Provance, PhD"
 description-meta: "Olivia Provance, PhD"
 image: "files/2022_headshot.png"
+=======
+title: "Quarto Academic, PhD"
+description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+image: "files/images/placeholder4.JPG"
+>>>>>>> upstream/main
 page-navigation: false
 toc: false
 #sidebar: false
@@ -27,7 +33,26 @@ about:
 #      href: https://www.researchgate.net
 #      target: _blank
 
+<<<<<<< HEAD
 
+=======
+listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+  - id: recent-posts
+    contents: 
+      - posts
+      - posts/post-links.yml
+    exclude:
+      title: ""
+    type: grid
+    max-items: 3
+#    image-height: 150px
+    page-size: 3 #set same as max-times to remove the page number setting
+    fields: [image, date, title, subtitle]
+    max-description-length: 75
+    sort: 
+      - "date desc"
+      - "title asc"
+>>>>>>> upstream/main
 ---
 
 :::{#hero-heading}
@@ -36,7 +61,23 @@ about:
 
 I’m Olivia, a post-doc at Yale School of Medicine in the department of Medical Oncology. My research under the mentorship of Lucia Jilaveanu is focused on identifying and characterizing novel molecular mediators contributing to melanoma brain metastasis. I run gels to answer scientific questions and run marathons to keep myself sane.
 
+<<<<<<< HEAD
 Take a look around and reach out if you would like to chat more.
+=======
+1. **Star** this repository to bookmark it for future reference.  
+1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
+1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
+1. **Add or edit content** in the following files and folders:
+   - `/posts/` – posts about publications, news, events  
+   - `teaching.qmd` – teaching information  
+   - `projects.yml` – research or other projects  
+   - `people.qmd` and `/people/` – team or collaborators  
+   - `/files/` - profiles, images, pdfs, and includes 
+1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
+1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
+1. **Refine and polish** your content and design as needed.  
+1. ✅ Enjoy your new website!
+>>>>>>> upstream/main
 
 Thanks for visiting! Happy you're here.
 
@@ -44,6 +85,13 @@ Dr. Liv
 
 :::
 
+<<<<<<< HEAD
+=======
+
+<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
+## Recent Posts
+Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+>>>>>>> upstream/main
 
 
 

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 /*Inline block*/
+=======
+/*Inline block for altmetric badges, will keep the badges in the same line*/
+>>>>>>> upstream/main
 span.__dimensions_badge_embed__, div.altmetric-embed {
   display: inline-block;
 }
