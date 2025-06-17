@@ -2,18 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<<<<<<< HEAD
 <meta name="generator" content="quarto-1.7.31">
-=======
-<meta name="generator" content="quarto-1.7.22">
->>>>>>> upstream/main
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr.&nbsp;Gang He">
-<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>People – Quarto Academic</title>
+<title>people – Olivia Provance, PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -44,19 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<<<<<<< HEAD
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f07a380226b71dccd824dee245407231.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-=======
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b4406b7675125bc2ba204020e191172.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f4e4f6f13c60fd88d7a110a7c3d02718.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
->>>>>>> upstream/main
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f07a380226b71dccd824dee245407231.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-df9cb0ed18efe72821591ad4ee1da3b6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f07a380226b71dccd824dee245407231.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,20 +75,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-lab-member .list');
+    const listingTargetEl = window.document.querySelector('#listing-featured .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-year","listing-distance","listing-time","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-lab-member'] = new List('listing-lab-member', options);
+    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -114,20 +103,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-lab-alumni .list');
+    const listingTargetEl = window.document.querySelector('#listing-all .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-distance','listing-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-started","listing-ended"],
+      searchColumns: ["listing-image","listing-title","listing-lastname","listing-subtitle","listing-categories","listing-year","listing-distance","listing-time","listing-featured"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-lab-alumni'] = new List('listing-lab-alumni', options);
+    window['quarto-listings']['listing-all'] = new List('listing-all', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -201,17 +190,177 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="People – Quarto Academic">
-<meta property="og:description" content="Who we are">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/profiles/profile1.JPG">
-<meta property="og:site_name" content="Quarto Academic">
-<meta name="twitter:title" content="People – Quarto Academic">
-<meta name="twitter:description" content="Who we are">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/profiles/profile1.JPG">
+<meta property="og:title" content="Olivia Provance, PhD">
+<meta property="og:image" content="https://oliviaprovancephd.github.io/files/races/2024-boston.jpeg">
+<meta property="og:site_name" content="Olivia Provance, PhD">
+<meta name="twitter:title" content="Olivia Provance, PhD">
+<meta name="twitter:image" content="https://oliviaprovancephd.github.io/files/races/2024-boston.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -219,7 +368,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto Academic</span>
+    <span class="navbar-title">Olivia Provance, PhD</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -227,87 +376,56 @@ window.Quarto = {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=news">
- <span class="dropdown-text">News</span></a>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">About</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=event">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./contact.html">
- <span class="dropdown-text">Contact</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./publications.html">
- <span class="dropdown-text">List of Publications</span></a>
+    <a class="dropdown-item" href="./overview.html">
+ <span class="dropdown-text">Overview</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts.html#category=paper">
- <span class="dropdown-text">Selected Papers</span></a>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./presentations.html">
+ <span class="dropdown-text">Presentations, abstracts, and posters</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Grants</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Outreach</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
-        <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
- <span class="dropdown-text">Presentations</span></a>
+ <span class="dropdown-text">Funding</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link active" href="./people.html" aria-current="page"> 
-<span class="menu-text">Group</span></a>
+<span class="menu-text">Running</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
+    <a class="nav-link" href="./files/June_CV.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://oliviaprovance.github.io" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/oliviaprovance/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -322,145 +440,94 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="RGlyZWN0b3I=">Director <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFzdGVycyUyMFN0dWRlbnQ=">Masters Student <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGhEJTIwU3R1ZGVudA==">PhD Student <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VW5kZXJncmFkdWF0ZSUyMFN0dWRlbnQ=">Undergraduate Student <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="MTBr">10k <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NWs=">5k <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGFsZi1tYXJhdGhvbg==">Half-marathon <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFyYXRob24=">Marathon <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VWx0cmE=">Ultra <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">People</h1>
-<p class="subtitle lead">Who we are</p>
-</div>
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Team</h2>
-<div id="listing-lab-member" class="quarto-listing quarto-listing-container-grid">
+<section id="featured-races" class="level2">
+<h2 class="anchored" data-anchor-id="featured-races">Featured Races</h2>
+<div id="listing-featured" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==">
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="g-col-1" data-index="0">
+<a href="https://results.baa.org/2024/?content=detail&amp;fpid=search&amp;pid=search&amp;idp=9TGHS6FF19FA71&amp;lang=EN_CAP&amp;event=R&amp;event_main_group=runner&amp;search%5Bname%5D=provance&amp;search%5Bfirstname%5D=Olivia&amp;search_event=R" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile1.JPG" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/races/2024-boston.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Student A
+128th Boston Marathon
 </h5>
-<div class="card-subtitle listing-subtitle">
-PhD Student
-</div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TWFzdGVycyUyMFN0dWRlbnQ=">
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="g-col-1" data-index="1">
+<a href="https://elitefeats.com/res-det/?ID=23725&amp;BibID=95" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile3.JPG" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/races/2024-ultra.JPG" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Student B
+Trials of Miles 50k
 </h5>
-<div class="card-subtitle listing-subtitle">
-Masters Student
-</div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="VW5kZXJncmFkdWF0ZSUyMFN0dWRlbnQ=">
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="g-col-1" data-index="2">
+<a href="https://results.chicagomarathon.com/2024/?content=detail&amp;fpid=search&amp;pid=search&amp;idp=9TGG96382A4DE3&amp;lang=EN_CAP&amp;event=MAR&amp;event_main_group=runner&amp;search%5Bname%5D=provance&amp;search%5Bfirstname%5D=olivia&amp;search_event=MAR" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile5.JPG" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/races/2024-chicago.jpg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Student C
+Chicago Marathon
 </h5>
-<div class="card-subtitle listing-subtitle">
-Undergraduate Student
-</div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="RGlyZWN0b3I=">
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
+<div class="g-col-1" data-index="3">
+<a href="https://results.nyrr.org/event/B2025/result/1268?mi_u=79489559&amp;mi_runner_id=79489559&amp;mi_event_code=0bc3645e4661eeefecc9" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile7.JPG" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="./files/races/2025-brooklyn.jpeg" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-PI Name
+NYRR Brooklyn Half
 </h5>
-<div class="card-subtitle listing-subtitle">
-PI
-</div>
-</div>
-</div></a>
-<<<<<<< HEAD
-</div>
-<div class="g-col-1" data-index="1" data-categories="UGhEJTIwU3R1ZGVudA==">
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./files/profiles/profile2.JPG" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Student Name
-</h5>
-<div class="card-subtitle listing-subtitle">
-PhD Student
-</div>
 </div>
 </div></a>
 </div>
 </div>
-=======
-</div>
-</div>
->>>>>>> upstream/main
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="alumni" class="level2">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="listing-lab-alumni" class="quarto-listing quarto-listing-container-table">
+<section id="all-races" class="level2">
+<h2 class="anchored" data-anchor-id="all-races">All Races</h2>
+<div id="listing-all" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-lab-alumni-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-lab-alumni'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+    <select id="listing-all-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-all'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
-      <option value="listing-image" data-direction="asc">
-      </option>
       <option value="listing-title-sort" data-direction="asc">
-        Name
+        Race
       </option>
-      <option value="listing-subtitle" data-direction="asc">
-        Role
+      <option value="listing-year" data-direction="asc">
+        Year
       </option>
-      <option value="listing-started" data-direction="asc">
-        Started
+      <option value="listing-distance" data-direction="asc">
+        Distance
       </option>
-      <option value="listing-ended" data-direction="asc">
-        Ended
+      <option value="listing-time" data-direction="asc">
+        Finish Time (hh:mm:ss)
       </option>
     </select>
   </div>
@@ -474,97 +541,137 @@ PhD Student
 <tr>
 
 <th>
-<a class="sort" data-sort="listing-image" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"> </a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Race</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Name</a>
+<a class="sort" data-sort="listing-year" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Year</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-subtitle" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Role</a>
+<a class="sort" data-sort="listing-distance" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Distance</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-started" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Started</a>
-</th>
-
-<th>
-<a class="sort" data-sort="listing-ended" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Ended</a>
+<a class="sort" data-sort="listing-time" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Finish Time (hh:mm:ss)</a>
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<<<<<<< HEAD
-<tr data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==" data-listing-title-sort="Student Name">
-=======
-<tr data-index="0" data-categories="UGhEJTIwU3R1ZGVudA==" data-listing-title-sort="Alumni A">
->>>>>>> upstream/main
+<tr data-index="0" data-categories="TWFyYXRob24=" data-listing-title-sort="128th Boston Marathon">
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/profiles/profile2.JPG" style="height: 25px;"></span>
+<a href="https://results.baa.org/2024/?content=detail&amp;fpid=search&amp;pid=search&amp;idp=9TGHS6FF19FA71&amp;lang=EN_CAP&amp;event=R&amp;event_main_group=runner&amp;search%5Bname%5D=provance&amp;search%5Bfirstname%5D=Olivia&amp;search_event=R" class="title listing-title">128th Boston Marathon</a>
 </td>
 <td>
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="title listing-title">Alumni A</a>
+<span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-subtitle">PhD Alumni</span>
+<span class="listing-distance">Marathon</span>
 </td>
 <td>
-<span class="listing-started">2024</span>
-</td>
-<td>
-<span class="listing-ended">2025</span>
+<span class="listing-time">3:32:52</span>
 </td>
 
 </tr>
 
-<<<<<<< HEAD
-<tr data-index="1" data-categories="RGlyZWN0b3I=" data-listing-title-sort="PI Name">
-=======
-<tr data-index="1" data-categories="TWFzdGVycyUyMFN0dWRlbnQ=" data-listing-title-sort="Alumni B">
->>>>>>> upstream/main
+<tr data-index="1" data-categories="VWx0cmE=" data-listing-title-sort="Trials of Miles 50k">
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/profiles/profile4.JPG" style="height: 25px;"></span>
+<a href="https://elitefeats.com/res-det/?ID=23725&amp;BibID=95" class="title listing-title">Trials of Miles 50k</a>
 </td>
 <td>
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="title listing-title">Alumni B</a>
+<span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-subtitle">Masters Alumni</span>
+<span class="listing-distance">Ultra, 50k</span>
 </td>
 <td>
-<span class="listing-started">2024</span>
-</td>
-<td>
-<span class="listing-ended">2025</span>
+<span class="listing-time">6:55:31</span>
 </td>
 
 </tr>
 
-<<<<<<< HEAD
-=======
-<tr data-index="2" data-categories="VW5kZXJncmFkdWF0ZSUyMFN0dWRlbnQ=" data-listing-title-sort="Alumni C">
+<tr data-index="2" data-categories="TWFyYXRob24=" data-listing-title-sort="Chicago Marathon">
 <td>
-<span class="listing-image"><img loading="lazy" src="./files/profiles/profile6.JPG" style="height: 25px;"></span>
+<a href="https://results.chicagomarathon.com/2024/?content=detail&amp;fpid=search&amp;pid=search&amp;idp=9TGG96382A4DE3&amp;lang=EN_CAP&amp;event=MAR&amp;event_main_group=runner&amp;search%5Bname%5D=provance&amp;search%5Bfirstname%5D=olivia&amp;search_event=MAR" class="title listing-title">Chicago Marathon</a>
 </td>
 <td>
-<a href="https://drganghe.github.io/quarto-academic-website-template" class="title listing-title">Alumni C</a>
+<span class="listing-year">2024</span>
 </td>
 <td>
-<span class="listing-subtitle">Undergraduate Alumni</span>
+<span class="listing-distance">Marathon</span>
 </td>
 <td>
-<span class="listing-started">2024</span>
-</td>
-<td>
-<span class="listing-ended">2025</span>
+<span class="listing-time">3:05:58</span>
 </td>
 
 </tr>
 
->>>>>>> upstream/main
+<tr data-index="3" data-categories="SGFsZi1tYXJhdGhvbg==" data-listing-title-sort="NYRR Brooklyn Half">
+<td>
+<a href="https://results.nyrr.org/event/B2025/result/1268?mi_u=79489559&amp;mi_runner_id=79489559&amp;mi_event_code=0bc3645e4661eeefecc9" class="title listing-title">NYRR Brooklyn Half</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-distance">Half-marathon</span>
+</td>
+<td>
+<span class="listing-time">1:27:08</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="SGFsZi1tYXJhdGhvbg==" data-listing-title-sort="Cheshire Half">
+<td>
+<span class="listing-title">Cheshire Half</span>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-distance">Half-marathon</span>
+</td>
+<td>
+<span class="listing-time">1:27:30</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="NWs=" data-listing-title-sort="Shamrock n' Roll">
+<td>
+<span class="listing-title">Shamrock n’ Roll</span>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-distance">5k</span>
+</td>
+<td>
+<span class="listing-time">18:48</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-categories="MTBr" data-listing-title-sort="Garmin, Land of OZ, 10k">
+<td>
+<span class="listing-title">Garmin, Land of OZ, 10k</span>
+</td>
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<span class="listing-distance">10k</span>
+</td>
+<td>
+<span class="listing-time">40:38</span>
+</td>
+
+</tr>
+
 </tbody>
 </table>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -577,6 +684,19 @@ PhD Student
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -983,30 +1103,24 @@ PhD Student
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Your Name</a> ©
+<a href="http://www.github.com">Olivia Provance</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
-<p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quart Academic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a></p>
+
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
+    <a class="nav-link" href="https://oliviaprovance.github.io" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
+    <a class="nav-link" href="./files/June_CV.pdf">
+<p>CV</p>
 </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank">
-      <i class="bi bi-rss" role="img">
-</i> 
-    </a>
   </li>  
 </ul>
     </div>

@@ -1,31 +1,52 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "objectID": "Interests.html#background",
+    "href": "Interests.html#background",
+    "title": "Olivia Provance, PhD",
+    "section": "Background",
+    "text": "Background\nI received my PhD from the University of Kansas School of Medicine in the department of Cancer Biology, and my bachelor’s in biology and pre-medicine from William Jewell College. As a molecular cancer biologist by training, my work integrates molecular biology, functional genomics, and quantitative data analysis to study tumor cell intrinsic and extrinsic mechanisms to uncover clinically relevant mediators of cancer progression and therapeutic resistance."
+  },
+  {
+    "objectID": "Interests.html#hobbies",
+    "href": "Interests.html#hobbies",
+    "title": "Olivia Provance, PhD",
+    "section": "Hobbies",
+    "text": "Hobbies\nOutside of the lab, I spend my time with my husband, our son, and our two dogs. We’re usually outside—running, hiking local trails, or just walking the neighborhood to unwind. I also love coffee (the ones with fruity notes) and drink arguably too much of it, and travelling back to my hometown of Kansas City to visit family and friends whenever possible."
+  },
+  {
+    "objectID": "posts.html#education",
+    "href": "posts.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nI received my PhD from the University of Kansas School of Medicine in the department of Cancer Biology, and my bachelor’s in biology and pre-medicine from William Jewell College. As a molecular cancer biologist by training, my work integrates molecular biology, functional genomics, novel murine models, and quantitative data analysis to study tumor cell intrinsic and extrinsic mechanisms to uncover clinically relevant mediators of cancer progression and therapeutic resistance."
+  },
+  {
+    "objectID": "posts.html#hobbies",
+    "href": "posts.html#hobbies",
+    "title": "About Me",
+    "section": "Hobbies",
+    "text": "Hobbies\nOutside of the lab, I spend my time with my husband, our son, and our two dogs. We’re usually outside—running, hiking local trails, or just walking our neighborhood. I also love coffee (the ones with fruity notes) and drink arguably too much of it. I travel sometimes, mainly back to my hometown of Kansas City to visit family and friends."
+  },
+  {
+    "objectID": "posts.html#luna-and-otto",
+    "href": "posts.html#luna-and-otto",
+    "title": "About Me",
+    "section": "Luna and Otto",
+    "text": "Luna and Otto\nI will gladly take any excuse to show off our two german shorthaired pointers. aka: King and Queen of the household. Photos taken by the talented, Hayley Fitch."
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
-  },
-  {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+    "text": "Provance, OK, Djureinovic D, Kluger H, Jilaveanu LB. Programmed cell death-4 shapes the melanoma tumor microenvironment and response to immunotherapy. Submitted. 2025.\nProvance OK, Oria VO, Tran TT, Caulfield JI, Zito CR, Aguirre-Ducler A, Schalper KA, Kluger HM, Jilaveanu LB. Vascular mimicry as a facilitator of melanoma brain metastasis. Cellular and Molecular Life Sciences. 2024 Apr 18;81(1):188. PMID: 38635031.\nOria VO, Zhang H, Zito CR, Rane CK, Ma XY, Provance OK, Tran TT, Adeniran A, Kluger Y, Sznol M, Bosenberg MW, Kluger HM, Jilaveanu LB. Coupled fibromodulin and SOX2 signaling as a critical regulator of distant metastasis initiation in melanoma. Cellular and Molecular Life Sciences. 2022 Jun 23;79(7):377. PMID: 35737114.\nProvance OK, Geanes ES, Lui AJ, Holloran SH, Roy A, Gunewardena S, Weir S, Lewis-Wambi J, Disrupting interferon-alpha and NF-kappaB crosstalk suppresses IFITM1 expression attenuating triple-negative breast cancer progression. Cancer Letters. 2021 Aug 28;514:12-29. Epub 2021 May 20. PMID: 34022283.\nProvance OK, Lewis-Wambi J, Deciphering the role of interferon alpha signaling and microenvironment crosstalk in inflammatory breast cancer. Breast Cancer Research. 2019 May 6;21(1):59. PMID: 31060575\nProvance OK, Won HS, Escher TE, Lewis-Wambi J. IFITM1 mediated induction of XBP1 regulates atorvastatin response in triple negative breast cancer cells. In preparation."
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Role\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nRole\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n \n\n\nRENEWAL; NIH 5TL1TR001864-07\n\n\nTL1 Postdoctoral Research Fellow\n\n\nYale Center for Clinical Investigation\n\n\nThe goal of this project is to investigate the role of PDCD4, in in tumor cells and in lymphocytes, and how it modulates anti-tumor immunity mediating metastatic melanoma.\n\n\n100% salary support\n\n\n2023\n\n\n2024\n\n\n\n\n\n\n \n\n\nNIH 5TL1TR001864-07\n\n\nTL1 Postdoctoral Research Fellow\n\n\nYale Center for Clinical Investigation\n\n\nThe goal of this project is to investigate the role of PDCD4, in in tumor cells and in lymphocytes, and how it modulates anti-tumor immunity mediating metastatic melanoma.\n\n\n100% salary support\n\n\n2022\n\n\n2023\n\n\n\n\n\n\n \n\n\nBiomedical Research Training Program (BRTP)\n\n\nBRTP Pre-doc Research Scholar\n\n\nUniversity of Kansas School of Medicine\n\n\nThe goal of this project is to investigate the role of IFITM1 in triple-negative breast cancer.\n\n\n15,000\n\n\n2019\n\n\n2020\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/news-title/index.html",
@@ -54,6 +75,13 @@
     "title": "Can quantum-mechanical description of physical reality be considered complete?",
     "section": "Links",
     "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Project Overview",
+    "section": "",
+    "text": "UNDER CONSTRUCTION"
   },
   {
     "objectID": "teaching.html",
@@ -93,66 +121,43 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quarto Academic, PhD",
+    "title": "Olivia Provance, PhD",
     "section": "",
-<<<<<<< HEAD
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository so you can easily come back to the template\n\nFolk this tempate and rename it to yourgithubusername.github.io\n\nUpdate and edit _quarto.yml file for website setup\n\nUpdate and add contents to /posts, teaching.qmd, projects.yml, and people.qmd and /people as needed.\nRender and preview your website and publish it to your GitHub.\nPolish and fix any issues\n\nEnjoy your website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
-=======
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\n\nStar this repository to bookmark it for future reference.\n\nFork this repository and rename it to YourGitHubUserName.github.io.\n\nUpdate the _quarto.yml file to configure your site’s basic settings.\n\nAdd or edit content in the following files and folders:\n\n/posts/ – posts about publications, news, events\n\nteaching.qmd – teaching information\n\nprojects.yml – research or other projects\n\npeople.qmd and /people/ – team or collaborators\n\n/files/ - profiles, images, pdfs, and includes\n\nRender and preview your site locally.\n\nPublish your site using GitHub Pages (make sure configuring your GitHub repository to publish from the docs directory, not the root folder).\nRefine and polish your content and design as needed.\n\n✅ Enjoy your new website!\n\n\n\n\nResearcher, Univerisity\n\n\n\n\n\nPhD, Univerisity"
->>>>>>> upstream/main
+    "text": "ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \n\n\nI’m Olivia, a post-doc at Yale School of Medicine in the department of Medical Oncology. My research under the mentorship of Lucia Jilaveanu is focused on identifying and characterizing novel molecular mediators contributing to melanoma brain metastasis. I run gels to answer scientific questions and run marathons to keep myself sane.\nTake a look around and reach out if you would like to chat more.\nThanks for visiting! Happy you’re here.\nDr. Liv"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Quarto Academic, PhD",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Olivia Provance, PhD",
     "section": "",
-    "text": "Researcher, Univerisity"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "PhD, Univerisity"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Quarto Academic, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "text": "I’m Olivia, a post-doc at Yale School of Medicine in the department of Medical Oncology. My research under the mentorship of Lucia Jilaveanu is focused on identifying and characterizing novel molecular mediators contributing to melanoma brain metastasis. I run gels to answer scientific questions and run marathons to keep myself sane.\nTake a look around and reach out if you would like to chat more.\nThanks for visiting! Happy you’re here.\nDr. Liv"
   },
   {
     "objectID": "people.html",
     "href": "people.html",
-    "title": "People",
+    "title": "Olivia Provance, PhD",
     "section": "",
-<<<<<<< HEAD
-    "text": "PI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
-=======
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
->>>>>>> upstream/main
+    "text": "No matching items"
   },
   {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
+    "objectID": "people.html#featured-races",
+    "href": "people.html#featured-races",
+    "title": "Olivia Provance, PhD",
     "section": "",
-<<<<<<< HEAD
-    "text": "PI\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD Student\n\n\n\n\n\nNo matching items"
-=======
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
->>>>>>> upstream/main
+    "text": "No matching items"
   },
   {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-<<<<<<< HEAD
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nStudent Name\n\n\nPhD Student\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nPI Name\n\n\nPI\n\n\n \n\n\n \n\n\n\n\n\n\nNo matching items"
-=======
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
->>>>>>> upstream/main
+    "objectID": "people.html#all-races",
+    "href": "people.html#all-races",
+    "title": "Olivia Provance, PhD",
+    "section": "All Races",
+    "text": "All Races\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Race\n      \n      \n        Year\n      \n      \n        Distance\n      \n      \n        Finish Time (hh:mm:ss)\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nRace\n\n\n\nYear\n\n\n\nDistance\n\n\n\nFinish Time (hh:mm:ss)\n\n\n\n\n\n\n\n\n128th Boston Marathon\n\n\n2024\n\n\nMarathon\n\n\n3:32:52\n\n\n\n\n\n\nTrials of Miles 50k\n\n\n2024\n\n\nUltra, 50k\n\n\n6:55:31\n\n\n\n\n\n\nChicago Marathon\n\n\n2024\n\n\nMarathon\n\n\n3:05:58\n\n\n\n\n\n\nNYRR Brooklyn Half\n\n\n2025\n\n\nHalf-marathon\n\n\n1:27:08\n\n\n\n\n\n\nCheshire Half\n\n\n2025\n\n\nHalf-marathon\n\n\n1:27:30\n\n\n\n\n\n\nShamrock n’ Roll\n\n\n2025\n\n\n5k\n\n\n18:48\n\n\n\n\n\n\nGarmin, Land of OZ, 10k\n\n\n2025\n\n\n10k\n\n\n40:38\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations, abstracts and posters",
+    "section": "",
+    "text": "UNDER CONSTRUCTION"
   }
 ]
