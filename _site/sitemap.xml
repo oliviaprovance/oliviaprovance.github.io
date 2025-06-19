@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://oliviaprovancephd.github.io/index.html</loc>
-    <lastmod>2025-06-17T01:49:46.011Z</lastmod>
+    <loc>https://oliviaprovancephd.github.io/Interests.html</loc>
+    <lastmod>2025-06-16T01:52:31.574Z</lastmod>
   </url>
   <url>
     <loc>https://oliviaprovancephd.github.io/posts.html</loc>
     <lastmod>2025-06-17T00:50:35.960Z</lastmod>
   </url>
   <url>
-    <loc>https://oliviaprovancephd.github.io/overview.html</loc>
-    <lastmod>2025-06-16T01:52:32.211Z</lastmod>
-  </url>
-  <url>
     <loc>https://oliviaprovancephd.github.io/publications.html</loc>
     <lastmod>2025-06-17T02:03:33.904Z</lastmod>
-  </url>
-  <url>
-    <loc>https://oliviaprovancephd.github.io/presentations.html</loc>
-    <lastmod>2025-06-16T01:52:32.252Z</lastmod>
   </url>
   <url>
     <loc>https://oliviaprovancephd.github.io/projects.html</loc>
     <lastmod>2025-06-16T01:52:32.253Z</lastmod>
   </url>
   <url>
+    <loc>https://oliviaprovancephd.github.io/posts/news-title/index.html</loc>
+    <lastmod>2025-06-17T00:50:21.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oliviaprovancephd.github.io/posts/paper-title/index.html</loc>
+    <lastmod>2025-06-16T01:52:32.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oliviaprovancephd.github.io/overview.html</loc>
+    <lastmod>2025-06-16T01:52:32.211Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oliviaprovancephd.github.io/teaching.html</loc>
+    <lastmod>2025-06-16T01:52:32.255Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oliviaprovancephd.github.io/contact.html</loc>
+    <lastmod>2025-06-16T01:52:31.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oliviaprovancephd.github.io/posts/event-title/index.html</loc>
+    <lastmod>2025-06-16T01:52:32.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://oliviaprovancephd.github.io/index.html</loc>
+    <lastmod>2025-06-17T01:49:46.011Z</lastmod>
+  </url>
+  <url>
     <loc>https://oliviaprovancephd.github.io/people.html</loc>
     <lastmod>2025-06-17T02:08:59.023Z</lastmod>
   </url>
   <url>
-    <loc>https://oliviaprovancephd.github.io/posts/paper-title/index.html</loc>
+    <loc>https://oliviaprovancephd.github.io/presentations.html</loc>
     <lastmod>2025-06-16T01:52:32.252Z</lastmod>
   </url>
 </urlset>

@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Olivia Provance, PhD"
@@ -19,8 +19,6 @@ website:
           href: overview.qmd
         - text: Publications  
           href: publications.qmd
-        - text: Presentations, abstracts, and posters
-          href: presentations.qmd    
         - text: Funding
           href: projects.qmd                                 
     - text: Running
