@@ -13,7 +13,7 @@ css: custom.css
 
 ## Common themes
 
-As a molecular biologist by training my research has been focused on understanding cellular mechanisms of cancer progression. During my PhD training I investigated mechanisms of primary tumor behavior and drug response. During my post-doc training in melanoma I turned to investigate metastatic mechanisms linking the tumor microenvironment, cell intrinsic properties, and clinical outcomes. My work highlights the true complexity of cancer and the importance of understanding the interplay between intrinsic and extrinsic cellular dynamics. 
+As a molecular biologist by training my research has been focused on understanding cellular mechanisms of cancer progression. During my PhD training I investigated mechanisms of primary tumor behavior, selective pressure from the microenvironment, and drug response. During my post-doc training in melanoma I turned to investigate metastatic mechanisms linking the tumor microenvironment, cell intrinsic properties, and clinical outcomes. My work highlights the true complexity of cancer and the importance of understanding the interplay between intrinsic and extrinsic cellular dynamics for therapeutic advancement.
 
 ## Mediators of melanoma brain metastasis
 
